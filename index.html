@@ -31,9 +31,8 @@
                 <ul class="nav-menu">
                     <li><a href="#home">Início</a></li>
                     <li><a href="#menu">Cardápio</a></li>
-                    <li><a href="#combos">Combos</a></li>
                     <li><a href="#about">Nossa História</a></li>
-                    <li><a href="#contact">Peça Agora</a></li>
+                    <li><a href="#address">Peça Agora</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,13 +43,15 @@
             <div class="container-home">
                 <div class="home-text">
                     <h1>O sabor da energia pura no seu copo! 💜</h1>
-                    <p>O melhor açaí da região, batido na hora e com os acompanhamentos mais frescos. Monte do seu jeito
-                        e sinta essa vibe.</p>
+                    <p>
+                        O melhor açaí da região, batido na hora e com os acompanhamentos
+                        mais frescos. Monte do seu jeito e sinta essa vibe.
+                    </p>
                     <span><i class="fa-solid fa-clock"></i> Aberto até as 22h</span>
                     <button id="btn-cardapio">Ver Cardápio</button>
                 </div>
                 <div class="home-img">
-                    <img src="#" alt="Logo Açai Vibes home">
+                    <img src="#" alt="Logo Açai Vibes home" />
                 </div>
             </div>
         </section>
@@ -58,139 +59,119 @@
         <section class="menu" id="menu">
             <div class="menu-container">
                 <h2>Explosão de Sabor</h2>
+                <p class="menu-subtitle">
+                    Escolha sua base, adicione energia e finalize com crocância!
+                </p>
             </div>
 
             <div class="menu-grid">
                 <div class="menu-category">
                     <h3>Nossos Copos</h3>
                     <div class="menu-card">
-                        <span class="fa-solid fa-glass-water-droplet"></span>
-                        <ul>
+                        <i class="fa-solid fa-glass-water-droplet card-icon"></i>
+                        <ul class="item-list">
                             <li>
-                                <strong>Pequeno (300ml)</strong>
-                                <span>R$ 15,00</span>
+                                <div class="item-details">
+                                    <strong>Pequeno (300ml)</strong>
+                                    <p>A medida certa para sua rotina.</p>
+                                </div>
+                                <span class="price">R$ 15,00</span>
                             </li>
                             <li>
-                                <strong>Médio (500ml)</strong>
-                                <span>R$ 22,00</span>
+                                <div class="item-details">
+                                    <strong>Médio (500ml)</strong>
+                                    <p>O equilíbrio perfeito de sabor.</p>
+                                </div>
+                                <span class="price">R$ 22,00</span>
                             </li>
                             <li>
-                                <strong>Grande (700ml)</strong>
-                                <span>R$ 28,00</span>
+                                <div class="item-details">
+                                    <strong>Grande (700ml)</strong>
+                                    <p>Para quem ama açaí de verdade.</p>
+                                </div>
+                                <span class="price">R$ 28,00</span>
                             </li>
-                            <li>
-                                <strong>Vibes (1 Litro)</strong>
-                                <span>R$ 35,00</span>
+                            <li class="featured-item">
+                                <div class="item-details">
+                                    <strong>Vibes (1 Litro) 💜</strong>
+                                    <p>Para compartilhar ou para muita fome!</p>
+                                </div>
+                                <span class="price">R$ 35,00</span>
                             </li>
                         </ul>
                     </div>
                 </div>
+
                 <div class="menu-category">
-                    <h3>Nossos Acompanhamentos</h3>
-
+                    <h3>Personalize seu Copo</h3>
                     <div class="menu-card">
-
-                        <span class="fa-solid fa-plus"></span>
+                        <i class="fa-solid fa-plus card-icon"></i>
 
                         <div class="acompanhamentos-grid">
-
-                            <!-- Frutas -->
                             <div class="categoria">
-                                <h4>🍓 Frutas</h4>
+                                <h4><i class="fa-solid fa-apple-whole"></i> Frutas</h4>
                                 <ul>
-                                    <li>
-                                        Banana
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        Morango
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        Kiwi
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        Uva
-                                        <span>+ R$ 2,00</span>
-                                    </li>
+                                    <li>Banana <span>+ R$ 2,00</span></li>
+                                    <li>Morango <span>+ R$ 2,00</span></li>
+                                    <li>Kiwi <span>+ R$ 2,00</span></li>
+                                    <li>Uva <span>+ R$ 2,00</span></li>
                                 </ul>
                             </div>
 
-                            <!-- Cremes -->
                             <div class="categoria">
-                                <h4>🍫 Cremes</h4>
+                                <h4><i class="fa-solid fa-droplet"></i> Cremes</h4>
                                 <ul>
-                                    <li>
-                                        Nutella
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        Leite Condensado
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        Creme de Ninho
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        Calda de Morango
-                                        <span>+ R$ 2,00</span>
-                                    </li>
+                                    <li>Nutella <span>+ R$ 4,00</span></li>
+                                    <li>Leite Condensado <span>+ R$ 2,00</span></li>
+                                    <li>Creme de Ninho <span>+ R$ 3,00</span></li>
+                                    <li>Calda de Morango <span>+ R$ 2,00</span></li>
                                 </ul>
                             </div>
 
-                            <!-- Crocantes -->
                             <div class="categoria">
-                                <h4>🥣 Crocantes</h4>
+                                <h4><i class="fa-solid fa-cookie"></i> Crocantes</h4>
                                 <ul>
-                                    <li>
-                                        Granola
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        Paçoca
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        M&Ms
-                                        <span>+ R$ 2,00</span>
-                                    </li>
-                                    <li>
-                                        Jujuba
-                                        <span>+ R$ 2,00</span>
-                                    </li>
+                                    <li>Granola <span>+ R$ 2,00</span></li>
+                                    <li>Paçoca <span>+ R$ 2,00</span></li>
+                                    <li>M&Ms <span>+ R$ 3,00</span></li>
+                                    <li>Ovomaltine <span>+ R$ 2,50</span></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="menu-category">
-                    <h3>Milkshakes & Bebidas</h3>
-
+                    <h3>Bebidas & Mix</h3>
                     <div class="menu-card">
-                        <span class="fa-solid fa-blender"></span>
-
-                        <ul>
+                        <i class="fa-solid fa-blender card-icon"></i>
+                        <ul class="item-list">
                             <li>
-                                <strong>Milkshake de Açaí</strong>
-                                <span>R$ 18,00</span>
+                                <div class="item-details">
+                                    <strong>Milkshake de Açaí</strong>
+                                    <p>Batido com sorvete e calda.</p>
+                                </div>
+                                <span class="price">R$ 18,00</span>
                             </li>
                             <li>
-                                <strong>Milkshake de Ninho</strong>
-                                <span>R$ 20,00</span>
+                                <div class="item-details">
+                                    <strong>Milkshake de Ninho</strong>
+                                    <p>O queridinho da casa.</p>
+                                </div>
+                                <span class="price">R$ 20,00</span>
                             </li>
                             <li>
-                                <strong>Suco Natural</strong>
-                                <span>R$ 10,00</span>
+                                <div class="item-details">
+                                    <strong>Suco Natural</strong>
+                                    <p>Laranja, Abacaxi ou Limão.</p>
+                                </div>
+                                <span class="price">R$ 10,00</span>
                             </li>
                             <li>
-                                <strong>Água</strong>
-                                <span>R$ 4,00</span>
-                            </li>
-                            <li>
-                                <strong>Refrigerante</strong>
-                                <span>R$ 6,00</span>
+                                <div class="item-details">
+                                    <strong>Água / Refri</strong>
+                                </div>
+                                <span class="price">A partir R$ 4,00</span>
                             </li>
                         </ul>
                     </div>
@@ -198,14 +179,80 @@
             </div>
         </section>
 
-        <section class="combos" id="combos"></section>
+        <section class="about" id="about">
+            <div class="about-container">
+                <h2 class="section-title">Nossa História</h2>
 
-        <section class="about" id="about"></section>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <div class="about-header">
+                            <strong>Conheça nossa essência</strong>
+                        </div>
+                        <h3>Açaí Vibes</h3>
+                        <p>
+                            O Açaí Vibes nasceu da vontade de trazer o verdadeiro sabor da fruta para Fortaleza.
+                            Mais do que um lanche, oferecemos uma explosão de energia e refrescância para o seu dia.
+                            Nossa missão é selecionar os melhores frutos e acompanhamentos para que cada copo seja uma
+                            experiência única.
+                        </p>
+                        <div class="location-info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Fortaleza, CE - Brasil</span>
+                        </div>
+                    </div>
 
-        <section class="contact" id="contact"></section>
+                    <div class="about-img">
+                        <img src="#" alt="Fachada aconchegante da loja Açaí Vibes em Fortaleza">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="address" id="address">
+            <div class="address-container">
+                <h2 class="section-title">Entre em contato conosco</h2>
+                <div class="address-grid">
+                    <div class="address-img">
+                        <img src="sua-imagem-acai.jpg" alt="Delicioso copo de açaí">
+                    </div>
+                    <div class="address-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.383836858775!2d-38.56960872502868!3d-3.7262059431609766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c749871bec7a25%3A0xf66a8bc240252a5f!2sShopping%20RioMar%20Kennedy!5e0!3m2!1spt-BR!2sbr!4v1772045158660!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" />
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-cta">
+                <a href="https://wa.me/5585912345678?text=Olá!%20Vi%20o%20site%20e%20gostaria%20de%20pedir%20um%20açaí!"
+                    target="_blank" class="btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Peça pelo WhatsApp
+                </a>
+            </div>
+
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+
+            <hr>
+            <div class="footer-info">
+                <p>
+                    <small>
+                        <i class="fa-solid fa-location-dot"></i> Fortaleza, CE - Brasil
+                    </small>
+                </p>
+                <p><small>&copy; 2026 <strong>Açaí Vibes</strong>. Todos os direitos reservados.</small></p>
+            </div>
+        </div>
+    </footer>
     <script></script>
 </body>
 
