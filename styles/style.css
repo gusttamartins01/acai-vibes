@@ -353,6 +353,7 @@ body {
     font-size: 2rem;
     margin-bottom: 10px;
     font-weight: 700;
+    
 }
 
 .about-grid {
@@ -462,5 +463,78 @@ body {
 }
 
 footer {
+    background-color: var(--boder-color);
+    padding: 30px 20px 20px;
+}
 
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-whatsapp  {
+    background-color: var(--primary-color);
+    padding: 10px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    color: var(--light-color);
+    gap: 12px;
+}
+
+.btn-whatsapp i {
+    font-size: 20px;
+    color: var(--light-color);
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.social-icons i {
+    font-size: 25px;
+    text-align: center;
+}
+
+.fa-brands.fa-instagram {
+    color: #fb2c36;
+}
+
+.fa-brands.fa-facebook {
+    color: #0084d1;
+}
+
+.footer-info {
+    border-top: 3px solid var(--primary-color);
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-info i {
+    text-align: center;
+    padding-right: 8px ;
+    color: var(--primary-color);
+}
+
+.text-end {
+    color: var(--light-color);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
 }
